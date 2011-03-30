@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Name=Google Docs
+Exec=chromium-browser --app="http://docs.google.com"
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/usr/share/ice/google-docs.png
+Categories=GTK;Office;
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupWMClass=Chromium
+StartupNotify=true

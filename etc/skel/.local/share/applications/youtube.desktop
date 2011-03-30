@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Name=YouTube
+Exec=chromium-browser --app="http://www.youtube.com/"
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/usr/share/ice/youtube.png
+Categories=GTK;AudioVideo;
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupWMClass=Chromium
+StartupNotify=true

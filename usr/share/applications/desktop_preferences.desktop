@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Icon=/usr/share/icons/gnome/scalable/categories/preferences-desktop.svg
+Exec=pcmanfm --desktop-pref
+Name=Desktop Preferences
+Comment=Manage Desktop Appearance and Wallpaper
+Categories=Settings;DesktopSettings;X-LXDE-Settings;
+NotShowIn=GNOME;KDE;XFCE;

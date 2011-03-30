@@ -1,0 +1,4 @@
+style "gcw-font" {
+    font_name = "Monospace 10"
+}
+widget "gcw.*.gcw-sourceview" style "gcw-font"

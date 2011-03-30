@@ -1,0 +1,13 @@
+Source: peppermint-default-settings
+Section: x11
+Priority: optional
+Maintainer: Kendall Weaver <kendalltweaver@gmail.com>
+Build-Depends: debhelper (>= 7), intltool
+Standards-Version: 3.8.4
+Homepage: https://peppermintos.com/
+
+Package: peppermint-default-settings
+Architecture: all
+Depends: ${misc:Depends}, lxsession (>= 0.4.1), peppermint-artwork (>= 2.0.0)
+Description: default settings for Peppermint
+ Various system settings tailored for Peppermint.

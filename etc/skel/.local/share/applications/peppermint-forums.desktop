@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Name=Peppermint Forums
+Exec=chromium-browser --app="http://peppermintos.net/"
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/usr/share/ice/peppermint-forums.png
+Categories=GTK;Network;
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupWMClass=Chromium
+StartupNotify=true

@@ -1,0 +1,7 @@
+[General]
+terminal=lxterminal
+
+[Desktop]
+show_wallpaper=1
+wallpaper=/usr/share/peppermint/wallpapers/peppermint-wisp-wide.png
+show_wm_menu=1

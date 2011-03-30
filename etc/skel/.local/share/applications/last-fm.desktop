@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Name=last.fm
+Exec=chromium-browser --app="http://www.last.fm/"
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/usr/share/ice/last-fm.png
+Categories=GTK;AudioVideo;
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupWMClass=Chromium
+StartupNotify=true

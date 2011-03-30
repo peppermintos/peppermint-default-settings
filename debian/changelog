@@ -1,0 +1,114 @@
+peppermint-default-settings (2.0.0) natty; urgency=low
+
+  * Updated for Peppermint Two.
+  * Panel now correctly calls "peppermint-logout".
+  * Added default Ice applications.
+
+ -- Kendall Weaver <kendall@peppermintos.com>  23 Mar 2011 18:52:44 -0400
+
+peppermint-default-settings (1.1.6) lucid; urgency=low
+
+  * Changed defaults to point to new wallpaper
+
+ -- Kendall Weaver <kendalltweaver@gmail.com>  30 Jul 2010 20:46:33 -0400
+
+peppermint-default-settings (1.1.5) lucid; urgency=low
+
+  * Changed file manager reference to pcmanfm.desktop
+  * Edited defaults.list to open leafpad for plain text files 
+
+ -- Kendall Weaver <kendalltweaver@gmail.com>  25 Jul 2010 12:58:22 -0400
+
+peppermint-default-settings (1.1.4) lucid; urgency=low
+
+  * Added desktop preferences launcher
+
+ -- Scott Anderson <anderson.scott20@gmail.com>  23 Jul 2010 01:48:14 +0100
+
+peppermint-default-settings (1.1.3) lucid; urgency=low
+
+  * Added file manager to panel.
+  * Removed lubuntu reference in Openbox rc.xml.
+
+ -- Kendall Weaver <kendalltweaver@gmail.com>  12 Jun 2010 16:59:22 -0400
+
+peppermint-default-settings (1.1.2) lucid; urgency=low
+
+  * Corrected error in rc.xml for Openbox config
+
+ -- Kendall Weaver <kendalltweaver@gmail.com>  22 May 2010 15:51:52 -0400
+
+peppermint-default-settings (1.1.1) lucid; urgency=low
+
+  * Added "@xdg-user-dirs-gtk-update" to autostart
+  * Ctrl+Alt+Del now opens shutdown dialog
+
+ -- Kendall Weaver <kendalltweaver@gmail.com>  22 May 2010 14:29:11 -0400
+
+peppermint-default-settings (1.1.0) lucid; urgency=low
+
+  * Added "@mintinput1" to autostart
+  * Added launcher for logout dialog to lxpanel profile
+
+ -- Kendall Weaver <kendalltweaver@gmail.com>  18 May 2010 14:49:59 -0400
+
+peppermint-default-settings (1.0.9) lucid; urgency=low
+
+  * Removed default music selection
+
+ -- Kendall Tristan Weaver <kendalltweaver@gmail.com>  06 May 2010 11:48:09 -0400
+
+peppermint-default-settings (1.0.8) lucid; urgency=low
+
+  * Removed Songbird from root menu
+
+ -- Kendall Tristan Weaver <kendalltweaver@gmail.com>  03 May 2010 16:52:02 -0400
+
+peppermint-default-settings (1.0.7) lucid; urgency=low
+
+  * Added default music selection
+
+ -- Kendall Tristan Weaver <kendalltweaver@gmail.com>  23 Apr 2010 13:19:34 -0400
+
+peppermint-default-settings (1.0.6) lucid; urgency=low
+
+  * Corrected mintUpdate autostart process
+
+ -- Kendall Tristan Weaver <kendalltweaver@gmail.com>  22 Apr 2010 15:35:26 -0400
+
+peppermint-default-settings (1.0.5) lucid; urgency=low
+
+  * Removed Peppermint-Netbook desktop session
+
+ -- Kendall Tristan Weaver <kendalltweaver@gmail.com>  22 Apr 2010 11:28:34 -0400
+
+peppermint-default-settings (1.0.4) lucid; urgency=low
+
+  * Removed live.conf lxdm configuration file
+
+ -- Kendall Tristan Weaver <kendalltweaver@gmail.com>  18 Apr 2010 13:45:28 -0400
+
+peppermint-default-settings (1.0.3) lucid; urgency=low
+
+  * Changed default to widescreen wallpaper
+
+ -- Kendall Tristan Weaver <kendalltweaver@gmail.com>  12 Apr 2010 18:09:00 -0400
+
+peppermint-default-settings (1.0.2) lucid; urgency=low
+
+  * Added defaults for pcmanfm and autologin in live cd
+
+ -- Kendall Tristan Weaver <kendalltweaver@gmail.com>  09 Apr 2010 22:52:00 -0400
+
+peppermint-default-settings (1.0.1) lucid; urgency=low
+
+  * Edited configuation files
+
+ -- Kendall Tristan Weaver <kendalltweaver@gmail.com>  09 Apr 2010 18:41:00 -0400
+
+peppermint-default-settings (1.0.0) lucid; urgency=low
+
+  * Initial release
+
+ -- Kendall Tristan Weaver <kendalltweaver@gmail.com>  06 Apr 2010 14:46:00 -0400
+

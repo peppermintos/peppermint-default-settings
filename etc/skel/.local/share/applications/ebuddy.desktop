@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Name=eBuddy IM Client
+Exec=chromium-browser --app="http://web.ebuddy.com/"
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/usr/share/ice/ebuddy.png
+Categories=GTK;Network;
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupWMClass=Chromium
+StartupNotify=true
