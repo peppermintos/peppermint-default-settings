@@ -29,14 +29,14 @@ Plugin {
         separator {
         }
         item {
-            name=Firefox
-            image=firefox
-            action=firefox
+            name=Chromium
+            image=chromium-browser
+            action=chromium-browser
         }
         item {
-            name=Software Manager
-            image=/usr/lib/linuxmint/mintInstall/icon.svg
-            action=mintinstall
+            name=File Manager
+            image=file-browser
+            action=pcmanfm
         }
         item {
             image=gnome-run
@@ -54,37 +54,7 @@ Plugin {
 Plugin {
     type = space
     Config {
-        Size=6
-    }
-}
-
-Plugin {
-    type = launchbar
-    Config {
-        Button {
-            id=/usr/share/applications/firefox.desktop
-        }
-        Button {
-            id=/usr/share/applications/pcmanfm.desktop
-        }
-    }
-}
-
-Plugin {
-    type = space
-    Config {
-        Size=4
-    }
-}
-
-Plugin {
-    type = pager
-}
-
-Plugin {
-    type = space
-    Config {
-        Size=4
+        Size=10
     }
 }
 
