@@ -2,7 +2,5 @@
 @lxpanel --profile Peppermint
 @xscreensaver -no-splash
 @gnome-power-manager
-@pcmanfm --desktop
-@mintinput1
-@xdg-user-dirs-gtk-update
+@pcmanfm --desktop --profile peppermint
 @/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1

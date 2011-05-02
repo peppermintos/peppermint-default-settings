@@ -1,0 +1,66 @@
+{
+   "countryid_at_install": 21843,
+   "default_search_provider": {
+      "enabled": true,
+      "encodings": "UTF-8",
+      "icon_url": "http://www.google.com/favicon.ico",
+      "id": "2",
+      "instant_url": "{google:baseURL}webhp?{google:RLZ}sourceid=chrome-instant&ie={inputEncoding}&ion=1{searchTerms}&nord=1",
+      "keyword": "google.com",
+      "name": "Google",
+      "prepopulate_id": "1",
+      "search_url": "{google:baseURL}search?{google:RLZ}{google:acceptedSuggestion}{google:originalQueryForSuggestion}sourceid=chrome&client=ubuntu&channel=cs&ie={inputEncoding}&q={searchTerms}",
+      "suggest_url": "{google:baseSuggestURL}search?client=chrome&hl={language}&q={searchTerms}"
+   },
+   "dns_prefetching": {
+      "host_referral_list": [ 2, [ "http://googleads.g.doubleclick.net/", [ "http://pagead2.googlesyndication.com/", 0.9043999999999999 ] ], [ "http://peppermintos.com/", [ "http://pagead2.googlesyndication.com/", 0.22609999999999997, "http://s3.amazonaws.com/", 0.9043999999999999, "http://www.google-analytics.com/", 0.4522 ] ], [ "http://tools.google.com/", [ "http://www.google-analytics.com/", 0.08499999999999999, "http://www.google.com/", 0.1275 ] ], [ "http://www.youtube.com/", [ "http://gdata.youtube.com/", 0.08499999999999999, "http://i.ytimg.com/", 0.3399999999999999 ] ] ],
+      "startup_list": [ 1, "http://googleads.g.doubleclick.net/", "http://ocsp.thawte.com/", "http://pagead2.googlesyndication.com/", "http://peppermintos.com/", "http://s3.amazonaws.com/", "http://www.google-analytics.com/" ]
+   },
+   "download": {
+      "directory_upgrade": true,
+      "extensions_to_open": ""
+   },
+   "extensions": {
+      "autoupdate": {
+         "next_check": "12948410492846913"
+      },
+      "chrome_url_overrides": {
+         "bookmarks": [ "chrome-extension://eemcgdkfndhakfknompkggombfjjjeno/main.html" ]
+      },
+      "theme": {
+         "id": "",
+         "use_system": true
+      }
+   },
+   "google": {
+      "services": {
+         "username": ""
+      }
+   },
+   "homepage": "http://start.peppermintos.com/",
+   "homepage_is_newtabpage": false,
+   "ntp": {
+      "pref_version": 3,
+      "promo_build": 2,
+      "promo_closed": false,
+      "promo_end": 1299830340.0,
+      "promo_group": 14,
+      "promo_group_timeslice": 0,
+      "promo_line": "Use Chrome on another computer? Take your bookmarks and more with you.",
+      "promo_start": 1299830280.0,
+      "web_resource_cache_update": "1303934715.442408"
+   },
+   "plugins": {
+      "enabled_internal_pdf3": true
+   },
+   "profile": {
+      "content_settings": {
+         "pref_version": 1
+      },
+      "exited_cleanly": true,
+      "multiple_profile_prefs_version": 1
+   },
+   "tabs": {
+      "use_vertical_tabs": false
+   }
+}

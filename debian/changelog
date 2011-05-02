@@ -1,3 +1,16 @@
+peppermint-default-settings (2.0.2) natty; urgency=low
+
+  * Moved Peppermint Bug Tracking to "Internet" category.
+  * Added Chromium default settings.
+
+ -- Kendall Weaver <kendall@peppermintos.com>  27 Apr 2011 16:25:22 -0400
+
+peppermint-default-settings (2.0.1) natty; urgency=low
+
+  * Removed mint-md5sum to prevent package conflict.
+
+ -- Kendall Weaver <kendall@peppermintos.com>  26 Apr 2011 18:46:31 -0400
+
 peppermint-default-settings (2.0.0) natty; urgency=low
 
   * Updated for Peppermint Two.

@@ -12,7 +12,7 @@
     <action name="Execute"><command>lxterminal</command></action>
   </item>
   <item label="Browser">
-    <action name="Execute"><command>firefox</command></action>
+    <action name="Execute"><command>chromium-browser</command></action>
   </item>
 </menu>
 
@@ -25,14 +25,8 @@
   <item label="Desktop Settings">
     <action name="Execute">
       <startupnotify><enabled>yes</enabled></startupnotify>
-      <command>pcmanfm --show-pref 2</command>
+      <command>pcmanfm --desktop-pref</command>
     </action>
-  </item>
-  <item label="Desktop Preferences">
-	<action name="Execute">
-	  <startupnotify><enabled>yes</enabled></startupnotify>
-	  <command>pcmanfm --desktop-pref</command>
-	</action>
   </item>
   <item label="Window Management Settings">
     <action name="Execute">

@@ -1,10 +1,7 @@
 [Desktop Entry]
 # The names/descriptions should really be better
 Name=Peppermint
-Comment=Peppermint - Lightweight X11 desktop environment based on LXDE
-Comment[zh_TW]=Peppermint - 輕量級的 X11 桌面環境
-Comment[fi]=Peppermint - kevyt X11-työpöytäympäristö
-Comment[ja]=Peppermint - 軽量な X11 デスクトップ環境
+Comment=Peppermint OS - Web optimized Linux operating system.
 Exec=/usr/bin/startpeppermint
 # Icon=
 Type=Application

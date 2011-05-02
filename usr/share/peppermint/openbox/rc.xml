@@ -36,7 +36,7 @@
        the active window is -->
   </placement>
   <theme>
-    <name>Onyx-black</name>
+    <name>Peppermint</name>
     <titleLayout>NLIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -327,50 +327,67 @@
       <action name="Execute">
        <execute>scrot -s</execute>
       </action>
-    </keybind>  
-    
-   <keybind key="XF86AudioRaiseVolume">
+    </keybind> 
+
+    <!-- Keybinding for Volume management -->
+    <keybind key="XF86AudioRaiseVolume">
       <action name="Execute">
           <command>amixer -q sset Master 3%+</command>
       </action>
-   </keybind>
+    </keybind>
 
-   <keybind key="XF86AudioLowerVolume">
+    <keybind key="XF86AudioLowerVolume">
       <action name="Execute">
           <command>amixer -q sset Master 3%-</command>
       </action>
-   </keybind>
+    </keybind>
 
-   <keybind key="XF86AudioMute">
+    <keybind key="XF86AudioMute">
       <action name="Execute">
           <command>amixer -q sset Master toggle</command>
       </action>
-   </keybind>
+    </keybind>
 
-   <keybind key="XF86WWW">
+    <keybind key="XF86WWW">
       <action name="Execute">
-          <command>firefox</command>
+          <command>x-terminal-emulator</command>
       </action>
-   </keybind>
+    </keybind>
 
-   <keybind key="XF86Calculator">
+    <keybind key="XF86Calculator">
       <action name="Execute">
           <command>galculator</command>
       </action>
-   </keybind>
+    </keybind>
 
-   <keybind key="XF86MyComputer">
+    <keybind key="XF86MyComputer">
       <action name="Execute">
-          <command>pcmanfm2</command>
+          <command>pcmanfm</command>
       </action>
-   </keybind>
+    </keybind>
 
-   <!-- Taking Screenshots -->
-   <keybind key="Print">
+    <keybind key="XF86Terminal">
+      <action name="Execute">
+          <command>x-terminal-emulator</command>
+      </action>
+    </keybind>
+
+   <!-- Keybindings for Multimedia Keys and LCD Backlight (alternative when not using gnome-power-manager or xfce4-volumed)
+     <keybind key="C-F7">
       <action name="Execute">
-         <execute>scrot</execute>
+        <execute>sleep 2;xset dpms force off</execute>
       </action>
-   </keybind>
+    </keybind>
+     <keybind key="C-F10">
+      <action name="Execute">
+        <execute>xbacklight -dec 10</execute>
+      </action>
+    </keybind>
+     <keybind key="C-F11">
+      <action name="Execute">
+        <execute>xbacklight -inc 10</execute>
+      </action>
+    </keybind> -->
 
   </keyboard>
   <mouse>
@@ -650,12 +667,12 @@
       </mousebind>
     </context>
     <context name="Desktop">
-      <mousebind button="Up" action="Click">
+      <!--<mousebind button="Up" action="Click">
         <action name="DesktopPrevious"/>
       </mousebind>
       <mousebind button="Down" action="Click">
         <action name="DesktopNext"/>
-      </mousebind>
+      </mousebind>-->
       <mousebind button="A-Up" action="Click">
         <action name="DesktopPrevious"/>
       </mousebind>
