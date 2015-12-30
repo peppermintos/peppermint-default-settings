@@ -1,0 +1,8 @@
+[Nemo Action]
+Active=true
+Name=Calculate MD5 Checksum
+Comment=Check the MD5 signature of the file
+Exec=peppermint-md5sum '%F'
+Icon-Name=gtk-info
+Selection=S
+Extensions=nodirs;

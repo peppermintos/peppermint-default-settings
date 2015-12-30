@@ -1,0 +1,10 @@
+[org.mate.power-manager]
+button-lid-ac='suspend'
+button-lid-battery='suspend'
+button-power='interactive'
+button-suspend='suspend'
+icon-policy='always'
+sleep-computer-battery=600
+sleep-display-ac=0
+sleep-display-battery=300
+

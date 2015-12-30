@@ -1,0 +1,3 @@
+#!/bin/bash
+
+exec xbindkeys -f ~/.config/peppermint-control-center/xbindkeys.conf

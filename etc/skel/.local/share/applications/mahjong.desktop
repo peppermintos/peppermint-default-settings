@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Name=Mahjong
+Exec=chromium-browser --app=http://www.by-art.com/mjong5/
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/usr/share/ice/mahjong.png
+Categories=GTK;Game;
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupWMClass=Chromium
+StartupNotify=true

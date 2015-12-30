@@ -2,21 +2,48 @@ Source: peppermint-default-settings
 Section: x11
 Priority: optional
 Maintainer: Kendall Weaver <kendall@peppermintos.com>
-Build-Depends: debhelper (>= 7), 
+Build-Depends: debhelper (>= 8.1.0~),
                intltool
 Standards-Version: 3.8.3
-Homepage: http://peppermintos.com/
+Homepage: https://peppermintos.com
 
 Package: peppermint-default-settings
 Architecture: all
+Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, 
          lxsession (>= 0.4.1), 
-         peppermint-artwork (>= 0.4), 
+         peppermint-artwork (>= 5.0.0), 
          faenza-icon-theme,
-         pcmanfm (>= 0.9.5),
+         nemo,
          ttf-ubuntu-font-family,
-Recommends: amixer,
-            scrot,
-            galculator
-Description: default settings for Peppermint OS
- Various system settings tailored for Peppermint OS.
+         lightdm (>= 1.9.4),
+         lxsession-logout,
+         policykit-desktop-privileges,
+         xbindkeys,
+         python,
+         xfwm4,
+         peppermint-control-center
+Conflicts: lubuntu-default-settings
+Suggests: pavucontrol,
+          scrot,
+          galculator,
+          dmz-cursor-theme
+Description: default settings for Peppermint
+ Various system settings tailored for Peppermint.
+
+Package: peppermint-default-session
+Architecture: all
+Depends: ${misc:Depends},
+         peppermint-default-settings,
+         lightdm-gtk-greeter (>= 1.3.0)
+Provides: lightdm-gtk-greeter-config
+Description: Set default session to Peppermint
+ This package sets the default session to Peppermint by default.
+
+Package: peppermint-live-settings
+Architecture: all
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends},
+         peppermint-default-settings
+Description: default settings for Peppermint live ISO
+ Various system settings tailored for Peppermint ISO.

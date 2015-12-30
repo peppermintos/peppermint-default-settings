@@ -1,127 +1,738 @@
-peppermint-default-settings (2.0.2) natty; urgency=low
+peppermint-default-settings (5.4.3) trusty; urgency=low
 
-  * Moved Peppermint Bug Tracking to "Internet" category.
-  * Added Chromium default settings.
+  * Fixed /usr/bin/xflock4 which was stopping xfce4-session being installed
 
- -- Kendall Weaver <kendall@peppermintos.com>  27 Apr 2011 16:25:22 -0400
+ -- Mark Greaves (PCNetSpec) <mark@pcnetspec.co.uk>  Thu, 25 Jun 2015 15:03:00 +0000
 
-peppermint-default-settings (2.0.1) natty; urgency=low
+peppermint-default-settings (5.4.2) trusty; urgency=low
 
-  * Removed mint-md5sum to prevent package conflict.
+  * Add /etc/skel/.gnome2/accels/nemo
 
- -- Kendall Weaver <kendall@peppermintos.com>  26 Apr 2011 18:46:31 -0400
+ -- Mark Greaves (PCNetSpec) <mark@pcnetspec.co.uk>  Mon, 18 May 2015 09:31:00 +0000
 
-peppermint-default-settings (2.0.0) natty; urgency=low
+peppermint-default-settings (5.4.1) trusty; urgency=low
 
-  * Updated for Peppermint Two.
-  * Panel now correctly calls "peppermint-logout".
-  * Added default Ice applications.
+  * Add Calculate MD5 Checksum nemo action
 
- -- Kendall Weaver <kendall@peppermintos.com>  23 Mar 2011 18:52:44 -0400
+ -- Mark Greaves (PCNetSpec) <mark@pcnetspec.co.uk>  Sun, 03 May 2015 03:01:00 +0000
 
-peppermint-default-settings (1.1.6) lucid; urgency=low
+peppermint-default-settings (5.4.0) trusty; urgency=low
 
-  * Changed defaults to point to new wallpaper
+  * set mate-power-manager icon-policy='always' in gschema override
 
- -- Kendall Weaver <kendalltweaver@gmail.com>  30 Jul 2010 20:46:33 -0400
+ -- Mark Greaves (PCNetSpec) <mark@pcnetspec.co.uk>  Fri, 01 May 2015 01:25:00 +0000
 
-peppermint-default-settings (1.1.5) lucid; urgency=low
+peppermint-default-settings (5.3.9) trusty; urgency=low
 
-  * Changed file manager reference to pcmanfm.desktop
-  * Edited defaults.list to open leafpad for plain text files 
+  * remove clipit autostart (lxsession-defalt-apps)
 
- -- Kendall Weaver <kendalltweaver@gmail.com>  25 Jul 2010 12:58:22 -0400
+ -- Mark Greaves (PCNetSpec) <mark@pcnetspec.co.uk>  Thu, 30 Apr 2015 13:03:00 +0000
 
-peppermint-default-settings (1.1.4) lucid; urgency=low
+peppermint-default-settings (5.3.8) trusty; urgency=low
 
-  * Added desktop preferences launcher
+  * autostart mate-power-manager (lxsession-defalt-apps)
 
- -- Scott Anderson <anderson.scott20@gmail.com>  23 Jul 2010 01:48:14 +0100
+ -- Mark Greaves (PCNetSpec) <mark@pcnetspec.co.uk>  Thu, 30 Apr 2015 12:47:00 +0000
 
-peppermint-default-settings (1.1.3) lucid; urgency=low
+peppermint-default-settings (5.3.7) trusty; urgency=low
 
-  * Added file manager to panel.
-  * Removed lubuntu reference in Openbox rc.xml.
+  * Add /usr/share/glib-2.0/schemas/10_desktop-background.gschema.override
+  * Add /usr/share/glib-2.0/schemas/10_power-manager.gschema.override
+  * Add postinst "glib-compile-schemas /usr/share/glib-2.0/schemas/"
+  * Remove /etc/skel/.config/clipit
 
- -- Kendall Weaver <kendalltweaver@gmail.com>  12 Jun 2010 16:59:22 -0400
+ -- Mark Greaves (PCNetSpec) <mark@pcnetspec.co.uk>  Wed, 29 Apr 2015 11:06:00 +0000
 
-peppermint-default-settings (1.1.2) lucid; urgency=low
+peppermint-default-settings (5.3.6) trusty; urgency=low
 
-  * Corrected error in rc.xml for Openbox config
+  * disable X server DPMS in 50-screen-blanking-disable.conf
 
- -- Kendall Weaver <kendalltweaver@gmail.com>  22 May 2010 15:51:52 -0400
+ -- Mark Greaves (PCNetSpec) <mark@pcnetspec.co.uk>  Fri, 17 Apr 2015 21:44:00 +0000
 
-peppermint-default-settings (1.1.1) lucid; urgency=low
+peppermint-default-settings (5.3.5) trusty; urgency=low
 
-  * Added "@xdg-user-dirs-gtk-update" to autostart
-  * Ctrl+Alt+Del now opens shutdown dialog
+  * Fix .face not getting copied (again)
 
- -- Kendall Weaver <kendalltweaver@gmail.com>  22 May 2010 14:29:11 -0400
+ -- Mark Greaves (PCNetSpec) <mark@pcnetspec.co.uk>  Fri, 17 Apr 2015 14:49:00 +0000
 
-peppermint-default-settings (1.1.0) lucid; urgency=low
+peppermint-default-settings (5.3.4) trusty; urgency=low
 
-  * Added "@mintinput1" to autostart
-  * Added launcher for logout dialog to lxpanel profile
+  * Fix 50-screen-blanking-disable.conf
 
- -- Kendall Weaver <kendalltweaver@gmail.com>  18 May 2010 14:49:59 -0400
+ -- Mark Greaves (PCNetSpec) <mark@pcnetspec.co.uk>  Fri, 17 Apr 2015 14:33:00 +0000
 
-peppermint-default-settings (1.0.9) lucid; urgency=low
+peppermint-default-settings (5.3.3) trusty; urgency=low
 
-  * Removed default music selection
+  * Remove modified /usr/bin/lxlock
 
- -- Kendall Tristan Weaver <kendalltweaver@gmail.com>  06 May 2010 11:48:09 -0400
+ -- Mark Greaves (PCNetSpec) <mark@pcnetspec.co.uk>  Fri, 17 Apr 2015 14:01:00 +0000
 
-peppermint-default-settings (1.0.8) lucid; urgency=low
+peppermint-default-settings (5.3.2) trusty; urgency=low
 
-  * Removed Songbird from root menu
+  * Remove /usr/bin/xscreensaver-autostarter script
+  * Remove /etc/xdg/autostart/xscreensaver-autostart.desktop
+  * Add custom /usr/bin/xflock that starts lxlock
+  * Add modified /usr/bin/lxlock
+  * Add /usr/share/X11/xorg.conf.d/50-screen-blanking-disable.conf
 
- -- Kendall Tristan Weaver <kendalltweaver@gmail.com>  03 May 2010 16:52:02 -0400
+ -- Mark Greaves (PCNetSpec) <mark@pcnetspec.co.uk>  Fri, 17 Apr 2015 13:22:00 +0000
 
-peppermint-default-settings (1.0.7) lucid; urgency=low
+peppermint-default-settings (5.3.1) trusty; urgency=low
 
-  * Added default music selection
+  * Remove Peppermint.mirrors
+  * Edit Peppermint.info
 
- -- Kendall Tristan Weaver <kendalltweaver@gmail.com>  23 Apr 2010 13:19:34 -0400
+ -- Mark Greaves (PCNetSpec) <mark@pcnetspec.co.uk>  Fri, 10 Apr 2015 2:35:00 +0000
 
-peppermint-default-settings (1.0.6) lucid; urgency=low
+peppermint-default-settings (5.3.0) trusty; urgency=low
 
-  * Corrected mintUpdate autostart process
+  * fix clipitrc hotkey conflict
 
- -- Kendall Tristan Weaver <kendalltweaver@gmail.com>  22 Apr 2010 15:35:26 -0400
+ -- Mark Greaves (PCNetSpec) <mark@pcnetspec.co.uk>  Tue, 07 Apr 2015 19:54:00 +0000
 
-peppermint-default-settings (1.0.5) lucid; urgency=low
+peppermint-default-settings (5.2.9) trusty; urgency=low
 
-  * Removed Peppermint-Netbook desktop session
+  * unhide peppermint-screenlock
 
- -- Kendall Tristan Weaver <kendalltweaver@gmail.com>  22 Apr 2010 11:28:34 -0400
+ -- Mark Greaves (PCNetSpec) <mark@pcnetspec.co.uk>  Tue, 07 Apr 2015 17:07:00 +0000
 
-peppermint-default-settings (1.0.4) lucid; urgency=low
+peppermint-default-settings (5.2.8) trusty; urgency=low
 
-  * Removed live.conf lxdm configuration file
+  * set chromium to start without system titlebars
 
- -- Kendall Tristan Weaver <kendalltweaver@gmail.com>  18 Apr 2010 13:45:28 -0400
+ -- Mark Greaves (PCNetSpec) <mark@pcnetspec.co.uk>  Tue, 07 Apr 2015 16:17:00 +0000
 
-peppermint-default-settings (1.0.3) lucid; urgency=low
+peppermint-default-settings (5.2.7) trusty; urgency=low
 
-  * Changed default to widescreen wallpaper
+  * add /usr/bin/xscreensaver-autostarter script
+  * point xscreensaver-autostart.desktop at it
 
- -- Kendall Tristan Weaver <kendalltweaver@gmail.com>  12 Apr 2010 18:09:00 -0400
+ -- Mark Greaves (PCNetSpec) <mark@pcnetspec.co.uk>  Tue, 07 Apr 2015 04:15:00 +0000
 
-peppermint-default-settings (1.0.2) lucid; urgency=low
+peppermint-default-settings (5.2.6) trusty; urgency=low
 
-  * Added defaults for pcmanfm and autologin in live cd
+  * add gnome-search-tool to top level menu
 
- -- Kendall Tristan Weaver <kendalltweaver@gmail.com>  09 Apr 2010 22:52:00 -0400
+ -- Mark Greaves (PCNetSpec) <mark@pcnetspec.co.uk>  Mon, 06 Apr 2015 05:10:00 +0000
 
-peppermint-default-settings (1.0.1) lucid; urgency=low
+peppermint-default-settings (5.2.5) trusty; urgency=low
 
-  * Edited configuation files
+  * change lightdm background image to Peppermint-Six.jpg
+  * change lightdm theme to Peppermix
+  * change xfwm4 theme to Peppermix-Dark
 
- -- Kendall Tristan Weaver <kendalltweaver@gmail.com>  09 Apr 2010 18:41:00 -0400
+ -- Mark Greaves (PCNetSpec) <mark@pcnetspec.co.uk>  Sun, 05 Apr 2015 17:56:00 +0000
 
-peppermint-default-settings (1.0.0) lucid; urgency=low
+peppermint-default-settings (5.2.4) trusty; urgency=low
 
-  * Initial release
+  * add etc/skel/.face to peppermint-default-settings.install
 
- -- Kendall Tristan Weaver <kendalltweaver@gmail.com>  06 Apr 2010 14:46:00 -0400
+ -- Mark Greaves (PCNetSpec) <mark@pcnetspec.co.uk>  Sun, 05 Apr 2015 14:55:00 +0000
 
+peppermint-default-settings (5.2.3) trusty; urgency=low
+
+  * fix xscreensaver-autostart.desktop
+
+ -- Mark Greaves (PCNetSpec) <mark@pcnetspec.co.uk>  Fri, 03 Apr 2015 22:26:00 +0000
+
+peppermint-default-settings (5.2.2) trusty; urgency=low
+
+  * fix xscreensaver-daemon-autostart.desktop
+
+ -- Mark Greaves (PCNetSpec) <mark@pcnetspec.co.uk>  Fri, 03 Apr 2015 21:50:00 +0000
+
+peppermint-default-settings (5.2.1) trusty; urgency=low
+
+  * Change default theme to Peppermix from Peppermix-Dark
+
+ -- Mark Greaves (PCNetSpec) <mark@pcnetspec.co.uk>  Fri, 03 Apr 2015 20:59:00 +0000
+
+peppermint-default-settings (5.2.0) trusty; urgency=low
+
+  * Add clipit config to skel
+  * Add xscreensaver-daemon-autostart to /etc/xdg/autostart
+
+ -- Mark Greaves (PCNetSpec) <mark@pcnetspec.co.uk>  Fri, 03 Apr 2015 20:52:00 +0000
+
+peppermint-default-settings (5.1.9) trusty; urgency=low
+
+  * change name of nitrogen-wallpaper-changer.nemo_action
+
+ -- Mark Greaves (PCNetSpec) <mark@pcnetspec.co.uk>  Thu, 02 Apr 2015 12:02:00 +0000
+
+peppermint-default-settings (5.1.8) trusty; urgency=low
+
+  * change default nitrogen view to list
+
+ -- Mark Greaves (PCNetSpec) <mark@pcnetspec.co.uk>  Thu, 02 Apr 2015 02:16:00 +0000
+
+peppermint-default-settings (5.1.7) trusty; urgency=low
+
+  * add nitrogen config to skel
+  * add nemo "Change Desktop Background" nemo_action
+
+ -- Mark Greaves (PCNetSpec) <mark@pcnetspec.co.uk>  Thu, 02 Apr 2015 01:35:00 +0000
+
+peppermint-default-settings (5.1.6) trusty; urgency=low
+
+  * add .face to skel
+
+ -- Mark Greaves (PCNetSpec) <mark@pcnetspec.co.uk>  01 Apr 2015 01:42:00 +0000
+
+peppermint-default-settings (5.1.5) trusty; urgency=low
+
+  * remove sakura directory to peppermint-default-settings.install
+  * add sakura.conf to skel
+
+ -- Mark Greaves (PCNetSpec) <mark@pcnetspec.co.uk>  31 Mar 2015 17:18:00 +0000
+
+peppermint-default-settings (5.1.4) trusty; urgency=low
+
+  * change default theme to Pepermix-Dark
+
+ -- Mark Greaves (PCNetSpec) <mark@pcnetspec.co.uk>  30 Mar 2015 22:55:00 +0000
+
+peppermint-default-settings (5.1.3) trusty; urgency=low
+
+  * change lxsession upgrade_manager/command=mintupdate
+
+ -- Mark Greaves (PCNetSpec) <mark@pcnetspec.co.uk>  30 Mar 2015 16:22:00 +0000
+
+peppermint-default-settings (5.1.2) trusty; urgency=low
+
+  * removed guayadeque config file
+
+ -- Mark Greaves (PCNetSpec) <mark@pcnetspec.co.uk>  30 Mar 2015 16:01:00 +0000
+
+peppermint-default-settings (5.1.1) trusty; urgency=low
+
+  * fixed menu button path
+  * set xfwm4 default theme to Orion-Peppermix
+
+ -- Mark Greaves (PCNetSpec) <mark@pcnetspec.co.uk>  30 Mar 2015 15:54:00 +0000
+
+peppermint-default-settings (5.1.0) trusty; urgency=low
+
+  * removed pcmanfm directory from peppermint-default-settings.install
+  * removed lxterminal directory from peppermint-default-settings.install
+  * added sakura directory to peppermint-default-settings.install
+
+ -- Mark Greaves (PCNetSpec) <mark@pcnetspec.co.uk>  25 Mar 2015 15:50:00 +0000
+
+peppermint-default-settings (5.0.9) trusty; urgency=low
+
+  * Changed dependency on pcmanfm to nemo.
+  * Changed all references to pcmanfm to nemo.
+  * Changed all references to lxterminal to sakura.
+  * Added sakura config.
+  * Added lxpanel config file to skel.
+
+ -- Mark Greaves (PCNetSpec) <mark@pcnetspec.co.uk>  25 Mar 2015 15:19:00 +0000
+
+peppermint-default-settings (5.0.8) trusty; urgency=low
+
+  * Removed sxhkd references as another right click fix was found.
+
+ -- Kendall Weaver <kendall@peppermintos.com>  17 Jun 2014 09:58:00 -0400
+
+peppermint-default-settings (5.0.7) trusty; urgency=low
+
+  * Added sxhkd as a dependency and set it to run in the background.
+
+ -- Kendall Weaver <kendall@peppermintos.com>  16 Jun 2014 12:00:00 -0400
+
+peppermint-default-settings (5.0.6) trusty; urgency=low
+
+  * Updated default Ice apps for Ice 5.0.x.
+  * Now explicitly assigns $XDG_DATA_DIRS and $XDG_CONFIG_DIRS.
+
+ -- Kendall Weaver <kendall@peppermintos.com>  03 Jun 2014 16:33:00 -0400
+
+peppermint-default-settings (5.0.5) trusty; urgency=low
+
+  * Changed xfwm4 theme to Peppermint-Light.
+
+ -- Kendall Weaver <kendall@peppermintos.com>  26 May 2014 17:15:00 -0400
+
+peppermint-default-settings (5.0.4) trusty; urgency=low
+
+  * Changed panel height to 22px.
+  * Now defaults to Peppermint-Light GTK theme.
+
+ -- Kendall Weaver <kendall@peppermintos.com>  23 May 2014 17:10:00 -0400
+
+peppermint-default-settings (5.0.3) trusty; urgency=low
+
+  * Changed peppermint-logout.desktop panel tooltip.
+
+ -- Kendall Weaver <kendall@peppermintos.com>  23 May 2014 16:49:00 -0400
+
+peppermint-default-settings (5.0.2) trusty; urgency=low
+
+  * Added autostart applications in /etc/skel.
+  * Added /usr/bin/xbindkeys_peppermint script.
+
+ -- Kendall Weaver <kendall@peppermintos.com>  23 May 2014 13:16:00 -0400
+
+peppermint-default-settings (5.0.1) trusty; urgency=low
+
+  * Changed to reflect the addition of peppermint-control-center.
+  * Adjusted some default commands to be more user friendly.
+
+ -- Kendall Weaver <kendall@peppermintos.com>  23 May 2014 11:35:00 -0400
+
+peppermint-default-settings (5.0.0) trusty; urgency=low
+
+  * Rebased off of current Lubuntu source for Peppermint Five.
+
+ -- Kendall Weaver <kendall@peppermintos.com>  07 May 2014 16:06:00 -0400
+
+peppermint-default-settings (4.0.6) raring; urgency=low
+
+  * Changed xfwm double click time to 500 ms.
+
+ -- Kendall Weaver <kendall@peppermintos.com>  11 Nov 2013 10:54:00 -0500
+
+peppermint-default-settings (4.0.5) raring; urgency=low
+
+  * Added preinst script to rename drive.dekstop in /etc/skel
+
+  * Added dependency - python
+
+  * Added google_drive.desktop to /etc/skel
+
+  * Added drivefix script to /usr/bin
+
+  * Added .xbindkeys.noauto fix to startpeppermint
+
+  * Added execute drivefix to startpeppermint
+
+ -- Mark Greaves (PCNetSpec) <mark@pcnetspec.co.uk>  04 Jul 2013 22:30:00 +0000
+
+peppermint-default-settings (4.0.4) raring; urgency=low
+
+  * Added generic name and translations for xbindkeys-config.desktop.
+
+ -- Kendall Weaver <kendall@peppermintos.com>  07 May 2013 12:01:00 -0400
+
+peppermint-default-settings (4.0.3) raring; urgency=low
+
+  * Added Google Drive SSB.
+
+ -- Kendall Weaver <kendall@peppermintos.com>  07 May 2013 09:09:00 -0400
+
+peppermint-default-settings (4.0.2) raring; urgency=low
+
+  * Added Peppermint.info and Peppermint.mirrors files.
+
+ -- Kendall Weaver <kendall@peppermintos.com>  06 May 2013 14:09:00 -0400
+
+peppermint-default-settings (4.0.1) raring; urgency=low
+
+  * Added explicit icon theme to lightdm greeter file.
+
+ -- Kendall Weaver <kendall@peppermintos.com>  02 May 2013 20:48:00 -0400
+
+peppermint-default-settings (4.0.0) raring; urgency=low
+
+  * Initial build for Peppermint OS Four.
+
+ -- Kendall Weaver <kendall@peppermintos.com>  19 Mar 2013 16:46:00 -0400
+
+peppermint-default-settings (3.0.5) precise; urgency=low
+
+  * Adjusted default Ice apps.
+
+ -- Kendall Weaver <kendall@peppermintos.com>  22 Jul 2012 13:40:00 -0400
+
+peppermint-default-settings (3.0.4) precise; urgency=low
+
+  * Added Chromium defaults.
+  * Fixed desktop scrolling issue.
+  * Corrected wallpaper path for LightDM.
+
+ -- Kendall Weaver <kendall@peppermintos.com>  11 Jul 2012 16:21:00 -0400
+
+peppermint-default-settings (3.0.3) precise; urgency=low
+
+  * Removed last.fm as it doesn't seem to be working.
+
+ -- Kendall Weaver <kendall@peppermintos.com>  10 Jul 2012 16:27:00 -0400
+
+peppermint-default-settings (3.0.2) precise; urgency=low
+
+  * Added webapps and app config files.
+
+ -- Kendall Weaver <kendall@peppermintos.com>  10 Jul 2012 12:27:00 -0400
+
+peppermint-default-settings (3.0.1) precise; urgency=low
+
+  * Fixed session bug.
+
+ -- Kendall Weaver <kendall@peppermintos.com>  09 Jul 2012 20:02:00 -0400
+
+peppermint-default-settings (3.0.0) precise; urgency=low
+
+  * Changed everything for Peppermint Three.
+
+ -- Kendall Weaver <kendall@peppermintos.com>  09 Jul 2012 18:37:00 -0400
+
+lubuntu-default-settings (0.27) precise; urgency=low
+
+  [ Bhaskar Kandiyal ]
+  * Changed default theme of lightdm to Lubuntu-default (LP: #968527)
+
+  [ Julien Lavergne ]
+  * usr/share/lubuntu/openbox/rc.xml:
+   - Remove entries in the openbox menu which hang up if launched before
+     pcmanfm first run.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Tue, 03 Apr 2012 23:14:06 +0200
+
+lubuntu-default-settings (0.26) precise; urgency=low
+
+  * debian/maintscript:
+   - Add missing file.
+  * etc/xdg/lxsession/*/desktop.conf:
+   - Add DMZ-white mouse cursor by default (LP: #923344)
+  * debian/control:
+   - Recommend dmz-cursor-theme for the mouse theme.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Sun, 04 Mar 2012 00:58:20 +0100
+
+lubuntu-default-settings (0.25) precise; urgency=low
+
+  [ Julien Lavergne ]
+  * usr/share/lubuntu/openbox/rc.xml:
+   - Add ability to use icons in the menu.
+   - Add ability to use menu.xml in $HOME.
+  * usr/share/lubuntu/openbox/menu.xml:
+   - Update the openbox menu with the new version of Openbox.
+
+  [ Valdur Kana ]
+  * usr/share/lubuntu/openbox/rc.xml:
+   - Unmute audio when using shortcut for the volume (LP: #926246)
+   - Use correct volume key for mute shortcut (LP: #926320)
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Thu, 23 Feb 2012 21:42:03 +0100
+
+lubuntu-default-settings (0.24) precise; urgency=low
+
+  [ Julien Lavergne ]
+  * usr/share/lubuntu/openbox/rc.xml
+   - Remove workaround for lxpanel run dialog, now it's fixed in lxpanel.
+   - Revert maximised windows by default, need more integration (LP: #926788)
+  * debian/control:
+   - Add a recommend for xscreensaver, for the locking shortcut (LP: #923001)
+  * usr/share/lxpanel/profile/Lubuntu/panels/panel:
+   - Set the color font of the panel to white to match the new theme.
+
+  [ Colin Watson ]
+  * Use maintscript support in dh_installdeb rather than writing out
+    dpkg-maintscript-helper commands by hand.  We now simply Pre-Depend on a
+    new enough version of dpkg rather than using 'dpkg-maintscript-helper
+    supports' guards, leading to more predictable behaviour on upgrades.
+    (LP: #932209)
+
+  [ Alexander Andjelkovic ]
+  * Fixed super-keys were conflicting with other keybinds making them useless.
+    (LP: #890394)
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Sun, 19 Feb 2012 14:49:00 +0100
+
+lubuntu-default-settings (0.23) precise; urgency=low
+
+  * usr/share/lubuntu/openbox/menu.xml & rc.xml
+   - Re-synchronize with upstream.
+   - Workaround loose of focus of lxpanel run window (LP: #889414)
+   - Add a rule to maximize all new windows with type normal.
+   - Place new windows on the monitor with the mouse, rather than the primary
+     monitor.
+   - Use scrot -u -b (focused window with border) for the screenshot of the 
+     current window.
+   - Add a shortcut for the power button.
+   - Use horizontal presentation of the alt-tab.
+   - Add a shortcut to lock the screen (LP: #912499)
+  * usr/bin/startlubuntu* & usr/share/lubuntu/xscreensaver/xscreensaver:
+   - Add a custom configuration file for xscreensaver, with blank mode by
+     default (LP: #578789).
+   - Don't append /etc/xdg in xdg path, already done by Xsession.d
+   - Start gnome-keyring support for ssh before the session. Thanks urusha for
+     the patch (LP: #664206).
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Thu, 26 Jan 2012 00:48:09 +0100
+
+lubuntu-default-settings (0.22) precise; urgency=low
+
+  * Add a theme for lightdm (taking from Xubuntu, thanks Lionel Le Folgoc).
+  * Add etc/xdg/lubuntu/lightdm/lightdm-gtk-greeter.conf
+  * debian/{postinst,prerm}: install/remove alternatives to use our config
+    as /etc/lightdm/lightdm-gtk-greeter.conf.
+  * debian/control:
+   - add depends on lightdm-gtk-greeter >= 1.0.0-0ubuntu2.
+   - provides lightdm-gtk-greeter-config.
+   - Bump build-depends of debhelper for overrides support.
+  * debian/source/format:
+   - Switch to format 3.0 (native).
+  * debian/rules:
+   - Switch to dh syntax.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Tue, 08 Nov 2011 20:00:37 +0100
+
+lubuntu-default-settings (0.21) oneiric; urgency=low
+
+  * debian/postinst,debian/postrm: set Lubuntu as the default session and
+    lightdm-gtk-greeter as the default greeter if they aren't set already.
+    Remove them on uninstall. (thanks Didier and Lionel !)
+  * etc/xdg/lubuntu/lxdm/lxdm.conf:
+   - Fix location of the background.
+  * usr/bin/startlubuntu* & usr/share/lubuntu/leafpad/
+   - Install specific settings for leafpad, with Ubuntu font by default.
+  * etc/xdg/pcmanfm/pcmanfm.conf:
+   - Use Ubuntu font by default.
+  * usr/share/lubuntu/openbox/rc.xml:
+   - Use Ubuntu font by default instead of sans. (LP: #729885)
+  * usr/share/lxpanel/profile/Lubuntu/panels/panel:
+   - Set the color font of the panel to white to match the new theme.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Sun, 21 Aug 2011 00:27:21 +0200
+
+lubuntu-default-settings (0.20) oneiric; urgency=low
+
+  [ Jonathan Marsden ]
+  * etc/xdg/lubuntu/menus/lxde-applications.menu:
+   - Avoid Audio, Video and AudioVideo applications appearing
+     in the Accessories menu (duplicating Sound & Video entries).
+   - Avoid applications in both System and Utility categories
+     appearing in the Accessories menu (duplicating System Tools
+     entries). (LP: #779818)
+
+  [ Julien Lavergne ]
+  * usr/share/lubuntu/openbox/rc.xml
+   - Add Super_L, Super_R and ALt-F1 to keybindings for opening the menu. 
+  * etc/xdg/lxsession/*/autostart:
+   - Don't autostart nm-applet, should be autostarted automatically.
+   - Use xfce4-power-manager instead of gnome-power-manager which depends now
+     on gnome-settings-daemon.
+  * etc/xdg/lubuntu/lxdm/lxdm.conf:
+   - Update with version in lxdm 0.4.0. 
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Thu, 28 Jul 2011 23:42:29 +0200
+
+lubuntu-default-settings (0.19) natty; urgency=low
+
+  * etc/xdg/lubuntu/applications/default.list:
+    - Set Chromium as the default handler for http/https
+    - Use libreoffice instead of ooo2
+    - Set apturl as the default handler for apturl
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Mon, 25 Apr 2011 21:11:38 +0200
+
+lubuntu-default-settings (0.18) natty; urgency=low
+
+  * etc/xdg/lubuntu/menus/lxde-applications.menu:
+   - Set name of the menu to Applications, to fix libfm-pref-apps.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Thu, 17 Mar 2011 18:59:59 +0100
+
+lubuntu-default-settings (0.17) natty; urgency=low
+
+  [ Julien Lavergne ]
+  * etc/xdg/lubuntu/menus/lxde-applications.menu:
+   - Add a specific menu structure for lubuntu session.
+  * etc/xdg/lubuntu/lxdm/lxdm.conf
+   - Remove background option, it's already defined by the theme, and can break
+     it sometimes (LP: #703658).
+
+  [ Jonathan Marsden ]
+  * etc/xdg/lubuntu/menus/lxde-applications.menu:
+   - Update DTD to use standards.freedesktop.org
+   - Move system-wide admin tools to System -> Administration menu
+     (LP: #650432)
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Mon, 21 Feb 2011 01:51:14 +0100
+
+lubuntu-default-settings (0.16) natty; urgency=low
+
+  * usr/bin
+   - Sync XDG_DATA_DIRS with lxde-common
+  * usr/share/lubuntu/openbox/rc.xml:
+   - Remove some unused code.
+  * debian/control
+   - Recommends amixer, scrot and galculator for some openbox keybindings.
+  * etc/xdg/pcmanfm/lubuntu.conf
+   - Move configuration file to etc/xdg/pcmanfm/lubuntu/pcmanfm.conf
+     (LP: #684796)
+  * debian/postrm,preinst,postinst
+   - Handle the location change for pcmanfm configuration using
+     dpkg-maintscript-helper.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Mon, 06 Dec 2010 01:12:57 +0100
+
+lubuntu-default-settings (0.15) natty; urgency=low
+
+  * usr/bin/startlubuntu*
+   - Remove export XLIB_SKIP_ARGB_VISUALS=1, not needed since rgba support was
+     removed from gtk (LP: #673704).
+  * etc/xdg/lubuntu/applications/default.list:
+   - Set file-roller to open archives instead of xarchiver.
+   - Set audacious to open music files instead of aqualung.
+  * etc/xdg/lxsession/Lubuntu*/desktop.conf
+   - Switch to Ubuntu 11 font.
+  * debian/control:
+   - Depends on ttf-ubuntu-font-family.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Fri, 03 Dec 2010 00:01:34 +0100
+
+lubuntu-default-settings (0.14) natty; urgency=low
+
+  * etc/xdg/lubuntu/lxdm/lxdm.conf
+   - Enable user list in lxdm 0.3.0.
+  * etc/xdg/lubuntu/applications/default.list
+   - Replace epdfview by evince. LP: #657335
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Tue, 09 Nov 2010 22:53:38 +0100
+
+lubuntu-default-settings (0.13) maverick; urgency=low
+ 
+  * debian/postinst:
+   - Don't fail if the alternative file doesn't exist. (LP: #654211)
+ 
+ -- Julien Lavergne <gilir@ubuntu.com>  Mon, 04 Oct 2010 23:16:56 +0200
+
+lubuntu-default-settings (0.12) maverick; urgency=low
+
+  * debian/postinst:
+   - Remove alternatives file if it's not a symlink (LP: #625485).
+  * debian/prerm:
+   - Don't remove alternative on upgrade.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Sun, 03 Oct 2010 16:02:19 +0200
+
+lubuntu-default-settings (0.11) maverick; urgency=low
+
+  * usr/share/lubuntu/openbox/rc.xml:
+   - Use lxtask instead of xfce4-taskmanager (LP: #621317)
+  * etc/xdg/lxsession/Lubuntu*/desktop.conf
+   - Switch to lubuntu icon them.
+  * debian/control:
+   - Depends on lubuntu-icon-theme.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Wed, 29 Sep 2010 00:33:56 +0200
+
+lubuntu-default-settings (0.10) maverick; urgency=low
+
+  * etc/xdg/lxsession/Lubuntu*/desktop.conf
+   - Set some Xft keys for better font rendering by default. LP: #518168
+  * Set default gtk theme to Lubuntu-default.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Mon, 02 Aug 2010 22:54:46 +0200
+
+lubuntu-default-settings (0.9) maverick; urgency=low
+
+  * usr/bin
+   - Add export XLIB_SKIP_ARGB_VISUALS=1 to disable rgba support, since
+     lxpanel doesn't support it. (See #589763)
+   - Remove check for pcmanfm conf file in home directory, pcmanfm2 handle
+     it correctly.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Sun, 13 Jun 2010 10:54:23 +0200
+
+lubuntu-default-settings (0.8) maverick; urgency=low
+
+  * debian/control
+   - Depends on the re-written pcmanfm (>= 0.9.5).
+  * usr/share/lubuntu/openbox/menu.xml:
+   - Use new command to launch desktop settings.
+  * autostart: 
+   - Use new pcmanfm --desktop command to start pcmanfm with desktop management
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Wed, 02 Jun 2010 01:28:01 +0200
+
+lubuntu-default-settings (0.7) maverick; urgency=low
+
+  * usr/bin/start* :
+   - Ensure the menu prefix
+  * etc/xdg/lubuntu/lxdm/lxdm.conf
+   - Make Lubuntu the default session by using the [base] session key.
+   - Remove last_*, not provided by lxdm.conf in recent lxdm version.
+  * usr/share/lubuntu/openbox/rc.xml
+   - Add missing shortcuts for volume-up and volume-down, and launching
+     various applications. Thanks Kendall Weaver for the patch.
+  * debian/control
+   - Wrap build-depends and depends.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Fri, 21 May 2010 19:13:16 +0200
+
+lubuntu-default-settings (0.6) lucid; urgency=low
+
+  * Set iconsize to 22 and panel height to 24 for panel settings. It displays
+    correct icons size for panel icons. Thanks Leszek Lesner.
+  * usr/bin/start* : 
+   - From LXDE upstream, make sure dbus is launched when it's necessary.
+   - Add polkit-gnome-authentification-agent-1 to make polkit working again.
+  * Add custom defaults.list for applications by default.
+  * debian/dirs: Add /etc/lxdm, to be sure the directory exit (LP: #527482).
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Mon, 01 Mar 2010 00:35:26 +0100
+
+lubuntu-default-settings (0.5) lucid; urgency=low
+
+  * Add new Lubuntu-Netbook session, which launched lxlauncher by default.
+  * Add new configuration of lxdm for Lubuntu.
+  * debian/postinst & debian/prerm: Add a alternative lxdm.conf for Lubuntu
+    settings.
+  * autostart : Add nm-applet to the sessions.
+  * Use system-shutdown-panel icon for shutdown command and clean Encoding keys
+  * Use Chromium instead of Firefox inthe  panel and openbox configuration.
+  * Remove cpu and netstat plugin, and move volume applet before the tray.
+  * Complete openbox keybindings for taking screenshot. Thanks Adam for the
+    patch.
+  * Switch to Lubuntu custom theme :
+    - debian/control : Depends on lubuntu-artwork (>= 0.4) and 
+      elementary-icon-theme.
+    - desktop.conf : Use elementary-monochrome for icon theme.
+    - Use Clearlooks for Openbox theme.
+    - Use black font color for the panel.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Wed, 17 Feb 2010 20:39:21 +0100
+
+lubuntu-default-settings (0.4) lucid; urgency=low
+
+  * Remove spacer before the menu applet on the panel.
+  * Use openbox menu on the desktop indead of pcmanfm one.
+  * Install configuration file for QT apps if no one is installed, and set
+    QT style=GTK+.
+  * Merge Leszek Lesner openbox settings. 
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Sun, 24 Jan 2010 19:57:14 +0100
+
+lubuntu-default-settings (0.3) lucid; urgency=low
+
+  * Pass -e LXDE to lxsession to behave like a LXDE session.
+    Bump depends on lxsession to >= 0.4.1 to use this feature.
+  * Remove autostart for lxde-settings-daemon, it merged with lxsession.
+  * Change path to the wallpaper to a png file rather than a jpg. Bump depends
+    on lubuntu-artwork (>= 0.3) 
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Sun, 13 Dec 2009 11:19:35 +0100
+
+lubuntu-default-settings (0.2) lucid; urgency=low
+
+  * Add the volume applet to the panel to have a way to configure 
+    the sound
+  * Autostart gnome-power-manager to add power management support and 
+    the battery icon in notification-area
+  * Set the terminal for pcmanfm to lxterminal
+  * Move lxpanel background for Lubuntu to a specific file.
+  * Use /etc/xdg/lubuntu to store custom configuration files.
+  * Remove config file for lxsession, all is in desktop.conf
+  * Depends on lubuntu-artwork (>= 0.2) to bring the new lxpanel background.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Sat, 28 Nov 2009 00:21:07 +0100
+
+lubuntu-default-settings (0.1) lucid; urgency=low
+
+  * Initial upload (LP: #475649)
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Thu, 05 Nov 2009 18:52:56 +0100

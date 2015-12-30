@@ -1,2 +1,2 @@
 #!/bin/sh
-lxsession-logout --banner "/usr/share/peppermint/images/logout-banner.png" --side=top
+lxsession-default quit

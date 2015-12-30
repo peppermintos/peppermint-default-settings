@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Name=Google Calendar
+Exec=chromium-browser --app=http://www.google.com/calendar
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/usr/share/ice/googlecalendar.ico
+Categories=GTK;Office;
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupWMClass=Chromium
+StartupNotify=true

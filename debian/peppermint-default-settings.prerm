@@ -1,0 +1,15 @@
+#!/bin/sh -e
+
+set -e
+
+if [ "$1" = "remove" ] ; then
+  update-alternatives --remove lightdm-gtk-greeter-config-derivative \
+    /etc/xdg/peppermint/lightdm/lightdm-gtk-greeter.conf
+fi
+
+if [ -h "/usr/bin/xflock4" ]; then
+    rm -f /usr/bin/xflock4
+fi
+
+#DEBHELPER#
+exit 0

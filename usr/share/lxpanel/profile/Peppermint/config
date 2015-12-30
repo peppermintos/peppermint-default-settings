@@ -1,4 +1,4 @@
 [Command]
-FileManager=pcmanfm %s
-Terminal=lxterminal -e
-Logout=peppermint-logout
+FileManager=lxsession-default filemanager
+Terminal=lxsession-default terminal
+Logout=lxsession-default quit

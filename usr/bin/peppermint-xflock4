@@ -1,0 +1,9 @@
+#! /bin/bash
+
+# hack to make xfce4-power-manager work with
+# lxlock
+
+/usr/bin/lxlock
+
+exit 0
+

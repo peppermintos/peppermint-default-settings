@@ -1,20 +1,41 @@
 {
+   "browser": {
+      "clear_lso_data_enabled": false,
+      "custom_chrome_frame": true,
+      "last_known_google_url": "https://www.google.com/",
+      "pepper_flash_settings_enabled": false,
+      "window_placement": {
+         "bottom": 756,
+         "left": 230,
+         "maximized": false,
+         "right": 1280,
+         "top": 0,
+         "work_area_bottom": 776,
+         "work_area_left": 0,
+         "work_area_right": 1280,
+         "work_area_top": 0
+      }
+   },
+   "cloud_print": {
+      "email": ""
+   },
    "countryid_at_install": 21843,
+   "default_apps_install_state": 3,
    "default_search_provider": {
       "enabled": true,
-      "encodings": "UTF-8",
-      "icon_url": "http://www.google.com/favicon.ico",
-      "id": "2",
-      "instant_url": "{google:baseURL}webhp?{google:RLZ}sourceid=chrome-instant&ie={inputEncoding}&ion=1{searchTerms}&nord=1",
-      "keyword": "google.com",
-      "name": "Google",
-      "prepopulate_id": "1",
-      "search_url": "{google:baseURL}search?{google:RLZ}{google:acceptedSuggestion}{google:originalQueryForSuggestion}sourceid=chrome&client=ubuntu&channel=cs&ie={inputEncoding}&q={searchTerms}",
-      "suggest_url": "{google:baseSuggestURL}search?client=chrome&hl={language}&q={searchTerms}"
+      "encodings": "",
+      "icon_url": "",
+      "id": "5",
+      "instant_url": "",
+      "keyword": "duckduckgo.com",
+      "name": "Duck Duck Go",
+      "prepopulate_id": "0",
+      "search_url": "https://duckduckgo.com/?q={searchTerms}&t=peppermint",
+      "suggest_url": ""
    },
    "dns_prefetching": {
-      "host_referral_list": [ 2, [ "http://googleads.g.doubleclick.net/", [ "http://pagead2.googlesyndication.com/", 0.9043999999999999 ] ], [ "http://peppermintos.com/", [ "http://pagead2.googlesyndication.com/", 0.22609999999999997, "http://s3.amazonaws.com/", 0.9043999999999999, "http://www.google-analytics.com/", 0.4522 ] ], [ "http://tools.google.com/", [ "http://www.google-analytics.com/", 0.08499999999999999, "http://www.google.com/", 0.1275 ] ], [ "http://www.youtube.com/", [ "http://gdata.youtube.com/", 0.08499999999999999, "http://i.ytimg.com/", 0.3399999999999999 ] ] ],
-      "startup_list": [ 1, "http://googleads.g.doubleclick.net/", "http://ocsp.thawte.com/", "http://pagead2.googlesyndication.com/", "http://peppermintos.com/", "http://s3.amazonaws.com/", "http://www.google-analytics.com/" ]
+      "host_referral_list": [ 2, [ "http://start.peppermintos.com/", [ "http://clients1.google.com/", 2.2733802, "http://start.peppermintos.com/", 4.255301399999999, "http://www.google.com/", 5.246261999999999 ] ] ],
+      "startup_list": [ 1, "http://clients1.google.com/", "http://start.peppermintos.com/", "http://www.google.com/" ]
    },
    "download": {
       "directory_upgrade": true,
@@ -22,45 +43,209 @@
    },
    "extensions": {
       "autoupdate": {
-         "next_check": "12948410492846913"
+         "next_check": "13010539285978997"
       },
       "chrome_url_overrides": {
          "bookmarks": [ "chrome-extension://eemcgdkfndhakfknompkggombfjjjeno/main.html" ]
+      },
+      "last_chrome_version": "25.0.1364.160",
+      "settings": {
+         "ahfgeienlihckogmohjhadlkjgocpleb": {
+            "active_permissions": {
+               "api": [ "appNotifications", "management", "webstorePrivate" ]
+            },
+            "app_launcher_ordinal": "n",
+            "creation_flags": 1,
+            "from_bookmark": false,
+            "from_webstore": false,
+            "install_time": "13009604831368956",
+            "location": 5,
+            "manifest": {
+               "app": {
+                  "launch": {
+                     "web_url": "https://chrome.google.com/webstore"
+                  },
+                  "urls": [ "https://chrome.google.com/webstore" ]
+               },
+               "description": "Web Store",
+               "icons": {
+                  "128": "webstore_icon_128.png",
+                  "16": "webstore_icon_16.png"
+               },
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCtl3tO0osjuzRsf6xtD2SKxPlTfuoy7AWoObysitBPvH5fE1NaAA1/2JkPWkVDhdLBWLaIBPYeXbzlHp3y4Vv/4XG+aN5qFE3z+1RU/NqkzVYHtIpVScf3DjTYtKVL66mzVGijSoAIwbFCC3LpGdaoe6Q1rSRDp76wR6jjFzsYwQIDAQAB",
+               "name": "Chrome Web Store",
+               "permissions": [ "appNotifications", "webstorePrivate", "management" ],
+               "version": "0.1"
+            },
+            "page_ordinal": "n",
+            "path": "/usr/lib/chromium-browser/resources/web_store",
+            "was_installed_by_default": false
+         },
+         "eemcgdkfndhakfknompkggombfjjjeno": {
+            "active_permissions": {
+               "api": [ "bookmarks", "bookmarkManagerPrivate", "systemPrivate", "tabs" ],
+               "explicit_host": [ "chrome://favicon/*", "chrome://resources/*" ]
+            },
+            "creation_flags": 1,
+            "from_bookmark": false,
+            "from_webstore": false,
+            "install_time": "13009604831367504",
+            "location": 5,
+            "manifest": {
+               "chrome_url_overrides": {
+                  "bookmarks": "main.html"
+               },
+               "content_security_policy": "object-src 'none'; script-src chrome://resources 'self'",
+               "description": "Bookmark Manager",
+               "incognito": "split",
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQcByy+eN9jzazWF/DPn7NW47sW7lgmpk6eKc0BQM18q8hvEM3zNm2n7HkJv/R6fU+X5mtqkDuKvq5skF6qqUF4oEyaleWDFhd1xFwV7JV+/DU7bZ00w2+6gzqsabkerFpoP33ZRIw7OviJenP0c0uWqDWF8EGSyMhB3txqhOtiQIDAQAB",
+               "manifest_version": 2,
+               "name": "Bookmark Manager",
+               "permissions": [ "bookmarks", "bookmarkManagerPrivate", "systemPrivate", "tabs", "chrome://favicon/", "chrome://resources/" ],
+               "version": "0.1"
+            },
+            "path": "/usr/lib/chromium-browser/resources/bookmark_manager",
+            "was_installed_by_default": false
+         },
+         "mfehgcgbbipciphmccgaenjidiccnmng": {
+            "active_permissions": {
+               "api": [ "cloudPrintPrivate" ]
+            },
+            "creation_flags": 1,
+            "from_bookmark": false,
+            "from_webstore": false,
+            "install_time": "13009604831368324",
+            "location": 5,
+            "manifest": {
+               "app": {
+                  "launch": {
+                     "web_url": "https://www.google.com/cloudprint"
+                  },
+                  "urls": [ "https://www.google.com/cloudprint", "https://www.google.com/cloudprint/enable_chrome_connector" ]
+               },
+               "description": "Cloud Print",
+               "display_in_launcher": false,
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDqOhnwk4+HXVfGyaNsAQdU/js1Na56diW08oF1MhZiwzSnJsEaeuMN9od9q9N4ZdK3o1xXOSARrYdE+syV7Dl31nf6qz3A6K+D5NHe6sSB9yvYlIiN37jdWdrfxxE0pRYEVYZNTe3bzq3NkcYJlOdt1UPcpJB+isXpAGUKUvt7EQIDAQAB",
+               "name": "Cloud Print",
+               "permissions": [ "cloudPrintPrivate" ],
+               "version": "0.1"
+            },
+            "path": "/usr/lib/chromium-browser/resources/cloud_print",
+            "was_installed_by_default": false
+         }
       },
       "theme": {
          "id": "",
          "use_system": true
       }
    },
-   "google": {
-      "services": {
-         "username": ""
+   "net": {
+      "http_server_properties": {
+         "servers": {
+            "www.google.com:443": {
+               "settings": {
+                  "4": 100
+               },
+               "supports_spdy": true
+            }
+         },
+         "version": 1
       }
    },
-   "homepage": "http://start.peppermintos.com/",
-   "homepage_is_newtabpage": false,
    "ntp": {
-      "pref_version": 3,
-      "promo_build": 2,
-      "promo_closed": false,
-      "promo_end": 1299830340.0,
-      "promo_group": 14,
-      "promo_group_timeslice": 0,
-      "promo_line": "Use Chrome on another computer? Take your bookmarks and more with you.",
-      "promo_start": 1299830280.0,
-      "web_resource_cache_update": "1303934715.442408"
+      "app_page_names": [ "Apps" ],
+      "promo_resource_cache_update": "1366065323.13743"
    },
    "plugins": {
-      "enabled_internal_pdf3": true
+      "enabled_internal_pdf3": true,
+      "enabled_nacl": true,
+      "last_internal_directory": "/usr/lib/chromium-browser",
+      "plugins_list": [ {
+         "enabled": true,
+         "name": "Chromoting Viewer",
+         "path": "internal-remoting-viewer",
+         "version": ""
+      }, {
+         "enabled": true,
+         "name": "DivX Browser Plug-In",
+         "path": "/usr/lib/mozilla/plugins/gecko-mediaplayer-dvx.so",
+         "version": ""
+      }, {
+         "enabled": true,
+         "name": "QuickTime Plug-in 7.6.9",
+         "path": "/usr/lib/mozilla/plugins/gecko-mediaplayer-qt.so",
+         "version": ""
+      }, {
+         "enabled": true,
+         "name": "RealPlayer 9",
+         "path": "/usr/lib/mozilla/plugins/gecko-mediaplayer-rm.so",
+         "version": ""
+      }, {
+         "enabled": true,
+         "name": "Windows Media Player Plug-in",
+         "path": "/usr/lib/mozilla/plugins/gecko-mediaplayer-wmp.so",
+         "version": ""
+      }, {
+         "enabled": true,
+         "name": "mplayerplug-in is now gecko-mediaplayer 1.0.8",
+         "path": "/usr/lib/mozilla/plugins/gecko-mediaplayer.so",
+         "version": ""
+      }, {
+         "enabled": true,
+         "name": "Chromoting Viewer"
+      }, {
+         "enabled": true,
+         "name": "DivX Browser Plug-In"
+      }, {
+         "enabled": true,
+         "name": "QuickTime Plug-in 7.6.9"
+      }, {
+         "enabled": true,
+         "name": "RealPlayer 9"
+      }, {
+         "enabled": true,
+         "name": "Windows Media Player Plug-in"
+      }, {
+         "enabled": true,
+         "name": "mplayerplug-in is now gecko-mediaplayer 1.0.8"
+      } ],
+      "removed_old_component_pepper_flash_settings": true
    },
    "profile": {
+      "avatar_index": 0,
       "content_settings": {
+         "clear_on_exit_migrated": true,
          "pref_version": 1
       },
+      "created_by_version": "25.0.1364.160",
+      "exit_type": "Normal",
       "exited_cleanly": true,
-      "multiple_profile_prefs_version": 1
+      "local_profile_id": 6154583,
+      "name": "First user"
    },
-   "tabs": {
-      "use_vertical_tabs": false
+   "promo": {
+      "ntp_notification_promo": [ {
+         "closed": true,
+         "end": 0.0,
+         "gplus_required": false,
+         "group": 0,
+         "increment": 1,
+         "increment_frequency": 0,
+         "increment_max": 0,
+         "max_views": 0,
+         "num_groups": 100,
+         "segment": 0,
+         "start": 0.0,
+         "text": "",
+         "views": 0
+      } ]
+   },
+   "session": {
+      "restore_on_startup": 4,
+      "restore_on_startup_migrated": true,
+      "urls_to_restore_on_startup": [ "http://start.peppermintos.com/" ]
+   },
+   "sync": {
+      "suppress_start": true
    }
 }
